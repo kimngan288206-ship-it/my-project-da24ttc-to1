@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+   <body class="bg-light">
+    <div class="container my-5" style="max-width: 900px;">
+        <!-- nút quay lại -->
+    </div class="mb-4">
+    <a href="page6.html" class="btn btn-outline-secondary btn-sm">-> Quay lại danh sách </a>
+    </div> 
+    <!-- khung chứa nội dung chi tiết sản phẩm -->
+        <div class="card shadow-sm p-4 bg-pink">
+            <div class="row g-4 align-items-start">
+                <!-- cột bên trái: ảnh sản phẩm (chiếm 5/12 cột trên màn hình lớn)-->
+                 <div class="col-md-5">
+                    <img id="p-image" src="DU_LIEU_SAN_PHAM_TAI_DAY" alt="Nội dung sản phẩm" class="img-fluid">
+
+                 </div> 
+                    <!-- cột bên phải: thông tin sản phẩm (chiếm 7/12 cột trên màn hình lớn) -->
+
+             </div class="col-md-7">
+             <!-- Tên sản phẩm -->
+              <h1 id="p-name" class="h2 fw-bold text-dank mb-3">Tên sản phẩm</h1>
+              <!-- Giá sản phẩm --> 
+               <h2 id="p-price" class="h4 fw- text-danger fw-sembold mb-4"> Giá sản phaame VNĐ</h2>
+             <hr>
+             <h3 id = "p-description" class="h6 fw-bold text-secondary text-uppercase mb-2">Mô tả sản phẩm </h3>
+             <!-- Mô tả sản phẩm: canh đều (text-justify), giãn dòng 1.5 (1h-base)-->
+<p class="text-muted 1h-base" style="text-align: justify;">
+    Nội dung mootar của bạn từ 150 đến 200 từ sẽ được chèn vào đây. 
+    Đoạn văn này sử dụng class 1h-base của bootstrap 5 để tự động giãn dòng 1.5 line và thuộc tính text-align: justify của css để căn đều cả hai lề trái phải,
+    giúp bố cục văn bản trông gọn gàng, chuyên nghiệp và dễ đọc hơn trên mọi thiết bị
+
+</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        //1. Lấy ID từ URL bằng URLsearchParams
+        const urlParams = name URLsearchParams(window.location.search);
+        const productid =urlparams.get('id'); // kết quả là kiểu string (vd: "3")
+        //2. Dùng find để tìm đối tượng. Cần ép kiểu productId về Number bằng number
+    </script>
+   </body>

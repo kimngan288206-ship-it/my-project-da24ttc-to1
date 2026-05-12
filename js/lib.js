@@ -49,7 +49,7 @@ function addProduct(id, name, price, image, hyperLink)
 	const productLink = document.createElement("a");
 	const productLinkText = document.createTextNode("Xem chi tiết");
 	productLink.appendChild(productLinkText);
-	productLink.setAttribute("href", hyperLink);
+	productLink.setAttribute("href", hyperLink+"?id="+id);
 	productLink.setAttribute("class", "btn btn-info");
 
 	//Gắn paragraph 1, 2 và Link vào khung 
